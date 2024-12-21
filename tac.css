@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=DM+Serif+Text:ital@0;1&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #022B3A;
+    
+    
+}
+main h1{
+    font-family: Atma;
+    font-size:70px;
+    color: #9DE2FB;
+    text-shadow: 0 0 1rem #07759D;
+    margin: 0 0;
+    padding: 0 0;
+}
+main h3{
+    font-family: Atma;
+    font-size:20px;
+    color: #9DE2FB;
+    text-shadow: 0 0 1rem #03526f;
+    margin: 0 0;
+    padding: 0 0;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 1.5vmin;
+    align-items: center;
+}
+.game{
+ 
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    flex-wrap: wrap;
+}
+.btn{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #0792c5e2;
+    font-size:x-large;
+    font-weight: bolder;
+    font-family: Atma;
+    text-emphasis-color: #03526f;
+    background-color: #9ddaf0;
+    color: #03526F; 
+}
+.reset{
+    height: 7vmin;
+    width: 15vmin;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #0792c5d8;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: Atma;
+    background-color: #c1e1ed;
+
+}
+.btn:hover {
+    background-color: #77c0e3;
+    box-shadow: 0 0 1.5rem #07759D;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 2px solid #07759D;
+    outline-offset: 2px;
+}
+
+.reset:hover {
+    background-color: #a8d4e6;
+    box-shadow: 0 0 1.5rem #0792c5;
+    cursor: pointer;
+}
+
+.reset:focus {
+    outline: 2px solid #07759D;
+    outline-offset: 2px;
+}
+
+
+
